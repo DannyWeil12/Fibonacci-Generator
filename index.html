@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+<link rel="icon" type="favicon" href="images/download (1).png">
+    <title>Fibonacci Generator</title>
+  </head>
+  <body>
+    <h2 id="header">Fibonacci Generator</h2>
+    <div class="container">
+    <div class="buttons">
+        <button onclick="fib()" class="btn">
+            <span> Run Fibonacci
+            </span>
+          </button>
+          <input type="number" class="input" placeholder="# of Digits" id="numGet">
+          <span id="ind">6</span>
+          <button onclick="clearFib()" class="btn">
+            <span> Clear</span>
+          </button>
+    </div>  
+    <div id="fibbox" class="fib-box"></div>
+    <div class="fibDes">
+      <p id="fibTitle">What is The Fibonacci Sequence?</p>
+      <p>The Fibonaci sequence is a mathematical sequence of numbers in which each number is the sum of itself and the previous number. The man who discovered the sequence was named Leonardo Pisano Bigollo, now more commonly refered to as simply Fibonacci. </p>
+    </div>
+        </div>
+        
+        <script src="script.js"></script>
+  </body>
+</html>
