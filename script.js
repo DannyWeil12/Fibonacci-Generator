@@ -29,7 +29,7 @@ document.addEventListener("keydown", function (event) {
         event.preventDefault(); // Prevent the default behavior of the Enter key
 
         m = parseInt(inputField.value, 10); // Convert the input value to a number and store it in m
-    
+        fib()
         inputField.value = ""; // Clear the input field after pressing Enter
         document.getElementById('ind').innerHTML = (m);
 
