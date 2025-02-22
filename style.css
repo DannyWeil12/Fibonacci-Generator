@@ -2,7 +2,7 @@
     font-family: Parkinsans;
 }
 body {
-    background: white; /* Make it white if you need */
+    background: white;
     color: black;
     padding: 0;
     margin: 0;
@@ -18,7 +18,7 @@ body {
     align-items: center; /* Centers content horizontally */
     justify-content: flex-start; /* Keeps content at the top */
   }
-  
+ 
   /* Button styling */
   .btn {
     position: relative;
@@ -36,17 +36,17 @@ body {
     color: black;
     background-color: white;
   }
-  
+ 
   .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
-  
+ 
   .btn:active {
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   }
-  
+ 
   .btn::after {
     content: "";
     display: inline-block;
@@ -59,16 +59,16 @@ body {
     z-index: -1;
     transition: all 0.4s;
   }
-  
+ 
   .btn::after {
     background-color: #fff;
   }
-  
+ 
   .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
   }
-  
+ 
   /* Centering the div */
   div {
     padding: 20px;
@@ -78,7 +78,7 @@ body {
     text-align: center; /* Center text inside the div */
     border: 10px black;
   }
-  
+ 
   /* Centering the buttons container */
   .container {
     display: flex;
@@ -87,25 +87,25 @@ body {
     justify-content: center; /* Center content vertically */
     border: 10px black;
   }
-  
+ 
   /* Center buttons and space them */
   .buttons {
     display: flex;
-    gap: 10px;  /* Space between buttons */
+    gap: 40px;  /* Space between buttons */
     justify-content: center; /* Horizontally center the buttons */
     align-items: center; /* Vertically center the buttons */
   }
-  
+ 
   /* Styling for the fib-box div */
   .fib-box {
     padding: 50px;
     background-color: white;
     width: 600px;
     text-align: center;
-    border: 2px solid black; /* Larger border width for visibility */
-    overflow-y: auto;  /* Enables vertical scrolling */
-    word-wrap: break-word; /* Prevents text overflow */
-    white-space: pre-wrap; /* Ensures proper line breaks */
+    border: 2px solid black;
+    overflow-y: auto;
+    word-wrap: break-word;
+    white-space: pre-wrap;
   }
   .input {
     border: 2px solid rgba(112, 118, 123, 0.2);
@@ -118,7 +118,7 @@ body {
     border-radius: 10px;
     transition: all 0.5s;
   }
-  
+ 
   .input:hover,
   .input:focus {
     border: 2px solid #191d2256;
@@ -133,8 +133,4 @@ body {
 }
 h2{
   font-weight: normal;
-}
-#ind{
-  padding-left: 10px;
-  padding-right: 10px;
 }
